@@ -139,7 +139,7 @@
   }
   
   .typing-demo {
-    width: 80%;
+    width: 100%;
     animation: typing 4s steps(22), blink .10s step-end infinite alternate;
     animation-iteration-count: infinite;
     animation-direction: alternate;
