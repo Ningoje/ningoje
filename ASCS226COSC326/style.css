@@ -133,13 +133,13 @@
  
     
   .wrapper {
-    display: flex;
+    display: block;
     margin-top: 2rem;
     justify-content:left;
   }
   
   .typing-demo {
-    width: 27ch;
+    width: 80%;
     animation: typing 4s steps(22), blink .10s step-end infinite alternate;
     animation-iteration-count: infinite;
     animation-direction: alternate;
