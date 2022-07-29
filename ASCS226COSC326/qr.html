@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Dictionary</title>
+</head>
+<body>
+   
+    <div class="searchBox">
+        <input
+         type="text"
+          id="searchTxt" 
+          placeholder="Enter text or link">
+          <button id="searchbtn" >🔎</button>
+            
+         
+        </div>
+    
+        <div class="txtBox"></div>
+   
+    <script>
+document.querySelector("#searchbtn").addEventListener("click", qrGen);
+
+function qrGen(e) {
+  const name = document.querySelector("#searchTxt").value;
+  const qrlink ="https://api.akuari.my.id/other/qrcode?text=";
+  const linkqr = qrlink.concat(name);
+
+ try{
+      document.querySelector(".txtBox").innerHTML = `
+      <div>
+        <img
+          src="${linkqr}"
+        />
+      </div>
+      <div class="txtInfos">
+        <h1> ${name}</h1>
+        
+      </div>`;
+ }
+    catch(error) {
+      document.querySelector(".txtBox").innerHTML = `
+      <h4>error try again later</h4>
+      `;
+      console.log("Lyrics not found", err);
+    };
+
+  e.preventDefault();
+}
+
+
+
+    </script>
+    <div class="footer">
+        ⓒDennis Mutuku ,2022
+
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+function GetConfirmation()
+{
+var response = Confirm("Are you sure you want to continue?");
+if (response == true)
+{
+document.write("User wants to continue");
+return true;
+} else {
+document.write("User doesn't want to continue");
+return false;
+}
+}
+</script>
+</head>
+
+<body>
+<strong> Click button</strong>
+<br/>
+<form>
+<input type="button"
+value="Click to confirm"
+onclick="GetConfirmation"/>
+</form>
+</body>
+</html>

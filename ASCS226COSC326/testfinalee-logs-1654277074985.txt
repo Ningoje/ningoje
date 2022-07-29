@@ -1,0 +1,81 @@
+2022-06-03T17:22:09.064895+00:00 app[worker.1]: 
+2022-06-03T17:22:09.065779+00:00 app[worker.1]: /app/.pm2/logs/index-out.log last 15 lines:
+2022-06-03T17:22:09.066014+00:00 app[worker.1]: /app/.pm2/logs/index-error.log last 15 lines:
+2022-06-03T17:22:09.379520+00:00 app[worker.1]: 0|index  | Connected... {
+2022-06-03T17:22:09.379530+00:00 app[worker.1]: 0|index  |   connection: 'connecting',
+2022-06-03T17:22:09.379551+00:00 app[worker.1]: 0|index  |   receivedPendingNotifications: false,
+2022-06-03T17:22:09.379568+00:00 app[worker.1]: 0|index  |   qr: undefined
+2022-06-03T17:22:09.379584+00:00 app[worker.1]: 0|index  | }
+2022-06-03T17:22:09.517199+00:00 app[worker.1]: 0|index  | Connected... { connection: 'open' }
+2022-06-03T17:22:09.725596+00:00 app[worker.1]: 0|index  | Connected... { receivedPendingNotifications: true }
+2022-06-03T17:21:38.831587+00:00 app[api]: Deploy by user ningojepale@gmail.com
+2022-06-03T17:21:38.831587+00:00 app[api]: Release v3 created by user ningojepale@gmail.com
+2022-06-03T17:22:56.105116+00:00 app[worker.1]: 0|index  | /app/Gojosensei.js:930
+2022-06-03T17:22:56.105140+00:00 app[worker.1]: 0|index  |    GojoMdNx.sendText(m.chat, {'*Joke*\n\nCategory : ${joked.category}\nType: ${joked.type}\nJoke:${joked.setup}\nResponse:${joked.delivery}`} , m )
+2022-06-03T17:22:56.105162+00:00 app[worker.1]: 0|index  |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022-06-03T17:22:56.105187+00:00 app[worker.1]: 0|index  | SyntaxError: Invalid or unexpected token
+2022-06-03T17:22:56.105208+00:00 app[worker.1]: 0|index  |     at Object.compileFunction (node:vm:352:18)
+2022-06-03T17:22:56.105231+00:00 app[worker.1]: 0|index  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-06-03T17:22:56.105253+00:00 app[worker.1]: 0|index  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-06-03T17:22:56.105275+00:00 app[worker.1]: 0|index  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-06-03T17:22:56.105301+00:00 app[worker.1]: 0|index  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-06-03T17:22:56.105323+00:00 app[worker.1]: 0|index  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-06-03T17:22:56.105346+00:00 app[worker.1]: 0|index  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-03T17:22:56.105369+00:00 app[worker.1]: 0|index  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+2022-06-03T17:22:56.105395+00:00 app[worker.1]: 0|index  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-06-03T17:22:56.105418+00:00 app[worker.1]: 0|index  |     at EventEmitter.<anonymous> (/app/index.js:90:9)
+2022-06-03T17:21:45.000000+00:00 app[api]: Build succeeded
+2022-06-03T17:22:56.739063+00:00 app[worker.1]: 0|index  | Closing open session in favor of incoming prekey bundle
+2022-06-03T17:22:56.739910+00:00 app[worker.1]: 0|index  | Closing session: SessionEntry {
+2022-06-03T17:22:56.739937+00:00 app[worker.1]: 0|index  |   _chains: {
+2022-06-03T17:22:56.739973+00:00 app[worker.1]: 0|index  |     'Bf/d/p/May6O8QJjF921/HsxhmfJWQf4mKTCxwVjN8xq': { chainKey: [Object], chainType: 2, messageKeys: {} },
+2022-06-03T17:22:56.739985+00:00 app[worker.1]: 0|index  |     'BTDiBXIuFgP1Ha0kFBSFJnWmbIQd5RMLqarH9F+PAkUF': { chainKey: [Object], chainType: 1, messageKeys: {} }
+2022-06-03T17:22:56.740144+00:00 app[worker.1]: 0|index  |   },
+2022-06-03T17:22:56.740174+00:00 app[worker.1]: 0|index  |   registrationId: 611682420,
+2022-06-03T17:22:56.740196+00:00 app[worker.1]: 0|index  |   currentRatchet: {
+2022-06-03T17:22:56.740214+00:00 app[worker.1]: 0|index  |     ephemeralKeyPair: {
+2022-06-03T17:22:56.740241+00:00 app[worker.1]: 0|index  |       pubKey: <Buffer 05 30 e2 05 72 2e 16 03 f5 1d ad 24 14 14 85 26 75 a6 6c 84 1d e5 13 0b a9 aa c7 f4 5f 8f 02 45 05>,
+2022-06-03T17:22:56.740265+00:00 app[worker.1]: 0|index  |       privKey: <Buffer 40 2b ba 52 3c 26 88 bf 07 54 67 48 bc 46 78 89 d9 90 4a 99 ef d9 64 3e 20 37 97 61 46 ed f6 56>
+2022-06-03T17:22:56.740288+00:00 app[worker.1]: 0|index  |     },
+2022-06-03T17:22:56.740321+00:00 app[worker.1]: 0|index  |     lastRemoteEphemeralKey: <Buffer 05 ff dd fe 9f cc 6b 2e 8e f1 02 63 17 dd b5 fc 7b 31 86 67 c9 59 07 f8 98 a4 c2 c7 05 63 37 cc 6a>,
+2022-06-03T17:22:56.740323+00:00 app[worker.1]: 0|index  |     previousCounter: 0,
+2022-06-03T17:22:56.740351+00:00 app[worker.1]: 0|index  |     rootKey: <Buffer 4b 3c 8d 7b 2b 37 ec 19 3a 70 36 06 41 b4 b9 a6 6a 1a b6 b2 e8 1a 81 90 99 7b 86 dd 2e b3 58 9d>
+2022-06-03T17:22:56.740377+00:00 app[worker.1]: 0|index  |   },
+2022-06-03T17:22:56.740404+00:00 app[worker.1]: 0|index  |   indexInfo: {
+2022-06-03T17:22:56.740426+00:00 app[worker.1]: 0|index  |     baseKey: <Buffer 05 78 8f ac 89 e9 4a 31 2e 77 20 81 24 45 b3 4d df 5e b2 a3 9a 96 84 c4 de e5 cf ff b4 03 ba 8a 0f>,
+2022-06-03T17:22:56.740443+00:00 app[worker.1]: 0|index  |     baseKeyType: 2,
+2022-06-03T17:22:56.740469+00:00 app[worker.1]: 0|index  |     closed: -1,
+2022-06-03T17:22:56.740492+00:00 app[worker.1]: 0|index  |     used: 1654276976092,
+2022-06-03T17:22:56.740516+00:00 app[worker.1]: 0|index  |     created: 1654276976092,
+2022-06-03T17:22:56.740538+00:00 app[worker.1]: 0|index  |     remoteIdentityKey: <Buffer 05 18 bc 88 6a 51 a0 24 ba 54 18 26 b7 b9 82 da d2 38 a1 3e a6 72 5f 1c c1 c3 cf a0 d3 bf 86 82 6f>
+2022-06-03T17:22:56.740559+00:00 app[worker.1]: 0|index  |   }
+2022-06-03T17:22:56.740584+00:00 app[worker.1]: 0|index  | }
+2022-06-03T17:22:56.748169+00:00 app[worker.1]: 0|index  | /app/Gojosensei.js:930
+2022-06-03T17:22:56.748193+00:00 app[worker.1]: 0|index  |    GojoMdNx.sendText(m.chat, {'*Joke*\n\nCategory : ${joked.category}\nType: ${joked.type}\nJoke:${joked.setup}\nResponse:${joked.delivery}`} , m )
+2022-06-03T17:22:56.748215+00:00 app[worker.1]: 0|index  |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022-06-03T17:22:56.748240+00:00 app[worker.1]: 0|index  | SyntaxError: Invalid or unexpected token
+2022-06-03T17:22:56.748261+00:00 app[worker.1]: 0|index  |     at Object.compileFunction (node:vm:352:18)
+2022-06-03T17:22:56.748280+00:00 app[worker.1]: 0|index  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-06-03T17:22:56.748301+00:00 app[worker.1]: 0|index  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-06-03T17:22:56.748326+00:00 app[worker.1]: 0|index  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-06-03T17:22:56.748350+00:00 app[worker.1]: 0|index  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-06-03T17:22:56.748371+00:00 app[worker.1]: 0|index  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-06-03T17:22:56.748389+00:00 app[worker.1]: 0|index  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-03T17:22:56.748411+00:00 app[worker.1]: 0|index  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+2022-06-03T17:22:56.748435+00:00 app[worker.1]: 0|index  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-06-03T17:22:56.748456+00:00 app[worker.1]: 0|index  |     at EventEmitter.<anonymous> (/app/index.js:90:9)
+2022-06-03T17:21:47.483454+00:00 app[api]: Scaled to worker@1:Free by user ningojepale@gmail.com
+2022-06-03T17:22:59.714747+00:00 app[worker.1]: 0|index  | /app/Gojosensei.js:930
+2022-06-03T17:22:59.714755+00:00 app[worker.1]: 0|index  |    GojoMdNx.sendText(m.chat, {'*Joke*\n\nCategory : ${joked.category}\nType: ${joked.type}\nJoke:${joked.setup}\nResponse:${joked.delivery}`} , m )
+2022-06-03T17:22:59.714757+00:00 app[worker.1]: 0|index  |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022-06-03T17:22:59.714777+00:00 app[worker.1]: 0|index  | SyntaxError: Invalid or unexpected token
+2022-06-03T17:22:59.714793+00:00 app[worker.1]: 0|index  |     at Object.compileFunction (node:vm:352:18)
+2022-06-03T17:22:59.714807+00:00 app[worker.1]: 0|index  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-06-03T17:22:59.714825+00:00 app[worker.1]: 0|index  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-06-03T17:22:59.714849+00:00 app[worker.1]: 0|index  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-06-03T17:22:59.714863+00:00 app[worker.1]: 0|index  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-06-03T17:22:59.714877+00:00 app[worker.1]: 0|index  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-06-03T17:22:59.714891+00:00 app[worker.1]: 0|index  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-03T17:22:59.714905+00:00 app[worker.1]: 0|index  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+2022-06-03T17:22:59.714921+00:00 app[worker.1]: 0|index  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-06-03T17:22:59.714936+00:00 app[worker.1]: 0|index  |     at EventEmitter.<anonymous> (/app/index.js:90:9)
