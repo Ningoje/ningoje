@@ -1,7 +1,7 @@
  <p align="center">
-(<img src="" alt="Ningoje" width="350" height="400"/>
+<img src="https://telegra.ph/file/b9a68a3f295b47d0bd72e.jpg" alt="Ningoje" />
 </p>
-    </a>
+   
 </p>
 <br> 
 
@@ -12,13 +12,6 @@
 
 ```
 
-
------
-
------
-
-
-<img src="./img/AboutMe-elaina.png" width="500" />
 <br/>
 
 <b><details><summary>Click Here to Know me</summary></b>
@@ -45,9 +38,7 @@
 <img src="./img/Repo-elaina.png" width="500" />
 <br/>
 
-<b><details><summary>Click Here to see repos</summary></b>
 
-<img src="https://i.imgur.com/pGdhNzx.jpeg" width="300" align="Center" />
 <br/>
 
 <br/>
@@ -70,11 +61,11 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/@NingojePaleHivi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@sketchybread" height="30" width="40" /></a>
-<a href="https://fb.com/nigojepalehivi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="dennovinci" height="30" width="40" /></a>
-<a href="https://instagram.com/ningoje" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="gingerbreadsketchy" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="gingerbreadsketchy" height="30" width="40" /></a>
-
+<a href="https://twitter.com/@NingojePaleHivi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Ningoje" height="60" width="80" /></a>
+<a href="https://fb.com/nigojepalehivi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Ningoje" height="60" width="80" /></a>
+<a href="https://instagram.com/ningoje" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Ningoje" height="60" width="80" /></a>
+<a href="https://www.youtube.com/c/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="Ningoje" height="60" width="80" /></a>
+<a href="https://www.youtube.com/c/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="Ningoje" height="60" width="80" /></a>
 
 
 </p>
