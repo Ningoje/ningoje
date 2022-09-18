@@ -67,19 +67,14 @@
 <br/>
 </p>
 
-``` Contact Developer ```
-<p align="center">
 
-  <a href="https://instagram.com/"><img src="https://img.shields.io/badge/Instagram-E440?style=flat-cirlce&logo=instagram" />
-  <a href="https://github.com/ningoje"><img src="https://img.shields.io/badge/-GitHub-blue?style=flat-cirlce&logo=github" /> 
-    <a href="https://t.me/Ningoje"><img src="https://img.shields.io/badge/-Telegram-white?style=flat-cirlce&logo=telegram" /> 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/@NingojePaleHivi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@sketchybread" height="30" width="40" /></a>
 <a href="https://fb.com/nigojepalehivi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="dennovinci" height="30" width="40" /></a>
 <a href="https://instagram.com/ningoje" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="gingerbreadsketchy" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="gingerbreadsketchy" height="30" width="40" /></a>
-</p>
+
 
 
 </p>
