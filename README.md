@@ -33,10 +33,8 @@
 
 </details>
 
-----
 
-----
-<img src="./img/Repo-elaina.png" width="500" />
+
 <br/>
 
 
