@@ -1,5 +1,5 @@
  <p align="center">
-(<img src="https://i.imgur.com/vgElvfV.jpeg" alt="nexus" width="350" height="400"/>
+(<img src="" alt="Ningoje" width="350" height="400"/>
 </p>
     </a>
 </p>
