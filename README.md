@@ -9,6 +9,7 @@
 ```
 
  I am ningoje 😂😂 ✅🎉 .
+ Gamer eFootball 2023
 
 ```
 
@@ -24,8 +25,8 @@
 - Name **Ningoje**
 
 - Live in **Kanairo , Kenya**
-- Studying in [***Chuka University***]
-- Atleast Good with **Java and  javascript** 
+- Studying at [***Chuka University***]
+- Atleast Good with **Java ,javascript html,css and nodejs** 
 
 - Mainly Focus on making Whatsapp Bots
 
