@@ -26,7 +26,7 @@
 
 - Live in **Kanairo , Kenya**
 - Studying at [***Chuka University***]
-- Atleast Good with **Java ,javascript html,css and nodejs** 
+- Atleast Good with **Java ,javascript html,css , php,C,C++ , python and nodejs** 
 
 - Mainly Focus on making Whatsapp Bots
 
