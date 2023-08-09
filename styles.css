@@ -1,0 +1,9 @@
+.content{
+    min-height: 700px;
+    background-color: gray !important;
+}
+.footer{
+    min-height: 200px;
+    background-color: yellowgreen;
+    align-content: flex-end;
+}
