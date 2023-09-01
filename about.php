@@ -1,6 +1,6 @@
-<div class="header- text-center">
-    <h1>ABOUT</h1>
-</div>
+
+    <h2 class="page-header text-center">ABOUT</h2>
+
     <div class="card p-3 my-3 mb-0">
         <P>
             This website was developed by <b>Dennis Mutuku</b> Currently a student at chuka university doing barcelor of

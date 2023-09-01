@@ -68,7 +68,7 @@
             <div class="col-md-4">
                 <h3><i class="fa fa-phone"></i></h3>
                 <ul class="list-unstyled">
-                    <li><a href="https://www.facebook.com/ningoje"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.facebook.com/nigoje.palehivi"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://www.instagram.com/ningoje"><i class="fa fa-instagram"></i></a></li>
                     <li><a href="https://www.twitter.com/ningoje"><i class="fa fa-twitter"></i></a></li>
                     <!-- <li><a href="https://www.linkedin.com/in/ningoje">LinkedIn</a></li> -->

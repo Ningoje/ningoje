@@ -1,7 +1,7 @@
+<h2 class="page-header text-center">Random Images</h2>
+
 <div class="row ">
-    <div class="col-12">
-        <h1>Random Images</h1>
-    </div>
+
 </div>
 <div class="card m-3">
     <div class="row m-3 p-3 text-center">

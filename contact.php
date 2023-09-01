@@ -54,9 +54,9 @@
     <title>ContactUs</title>
 </head>
 <body> -->
-<div class="header text-center">
-    <h1>CONTACT US</h1>
-</div>
+
+    <h2 class="page-header text-center">CONTACT US</h2>
+
 
 <div class="card p-3 m-3">
     <form action="" method="post" class="row p-3 m-3">
@@ -70,18 +70,17 @@
         </div>
 
 
-        <br><br>
         <hr>
 
         <input class="btn btn-secondary" type="submit" value="Submit">
 
     </form>
 </div>
-<div class="box">
+<!-- <div class="box">
     <p>
         PO.BOX :2068,<br>
         CHUKA,THARAKA-NITHI <br>
         KENYA
     </p>
 
-</div>
+</div> -->
