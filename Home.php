@@ -2,7 +2,6 @@
     <div class="wrapper">
         <br>
         <div class="typing-demo">
-
             Hi friend👋👋, WELCOME!!!!!!
         </div>
     </div>
