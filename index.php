@@ -10,7 +10,7 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <title>Dictionary</title>
+    <title>NINGOJE</title>
 
 </head>
 
@@ -63,14 +63,51 @@
 
     </div>
     <div class="footer text-center p-3 mt-0">
-        ⓒDennis Mutuku ,2022
+        <div class="row">
+            <!-- contacts fontawesome -->
+            <div class="col-md-4">
+                <h3><i class="fa fa-phone"></i></h3>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.facebook.com/ningoje"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/ningoje"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.twitter.com/ningoje"><i class="fa fa-twitter"></i></a></li>
+                    <!-- <li><a href="https://www.linkedin.com/in/ningoje">LinkedIn</a></li> -->
+                    <li><a href="https://www.github.com/ningoje"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+            <!-- location -->
+            <div class="col-md-4">
+                <h3><i class="fa fa-map-marker"></i></h3>
+                    <div class="gmap_canvas"><iframe width="300" height="200" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+            </div>
 
+            <div class="col-md-4">
+
+                <h3><i class="fa fa-link"></i></h3>
+                <ul class="list-unstyled">
+                    <li><a href="./index.php?mod=home">Home</a></li>
+                    <li><a href="./index.php?mod=lyricssearch">Find lyrics</a></li>
+                    <li><a href="./index.php?mod=dictionary">Dictionary</a></li>
+                    <li><a href="./index.php?mod=randomImages">Random Images</a></li>
+                    <li><a href="./index.php?mod=qr">Generate Qr</a></li>
+                    <li><a href="./index.php?mod=contact">Contact</a></li>
+                    <li><a href="./index.php?mod=about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     </div>
+    <section class="copyright text-center">
+        ⓒNingoje ,<span id="year"></span>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/3d21027bf4.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>

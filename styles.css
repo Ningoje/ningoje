@@ -1,5 +1,5 @@
 .content{
-    min-height: 700px;
+    min-height: 500px;
     background-color: gray !important;
 }
 .footer{
@@ -45,3 +45,29 @@
     color:green;
    
   }
+  .copyright{
+    min-height: 50px;
+    background-color:black;
+    color: chocolate;
+  }
+  .page-header{
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: blueviolet;
+    color: white !important;
+
+  }
+  .search-card {
+    /* Replace 'red', 'green', and 'blue' with actual integer values */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Example shadow with red color */
+}
+.results-card{
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Example shadow with red color */
+    min-height: 300px;
+}
+/* glowing card  */
+.glowing-card {
+    /* Replace 'red', 'green', and 'blue' with actual integer values */
+    box-shadow: 0 0 10px rgba(115, 0, 255, 0.5); /* Example shadow with red color */
+    animation: glow 1s ease-in-out infinite alternate;
+}
