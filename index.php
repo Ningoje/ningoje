@@ -42,20 +42,13 @@
         <!-- dynamic content here -->
 
         <?php
-        $mod = isset($_GET['mod']) ? $_GET['mod'] : '';
+        $mod = isset($_GET['mod']) ? $_GET['mod'] : 'home';
         $mod = $mod . '.php';
         if (file_exists($mod)) {
             include($mod);
         } else {
 
-            echo (' <div>
-    <div class="wrapper">
-        <br>
-        <div class="typing-demo">
-
-            Hi friend👋👋, WELCOME!!!!!!
-        </div>
-    </div>');
+        include("404.php");
         }
         ?>
 
