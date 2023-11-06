@@ -10,6 +10,9 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
     <title>NINGOJE</title>
 
 </head>
@@ -30,6 +33,32 @@
                     <li class="nav-item"><a class="nav-link" href="./index.php?mod=dictionary">Dictionary</a></li>
                     <li class="nav-item"><a class="nav-link" href="./index.php?mod=randomImages">Random Images</a></li>
                     <li class="nav-item"><a class="nav-link" href="./index.php?mod=qr">Generate Qr</a></li>
+                    <!-- converter dropdown (currency,unit) -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Converter
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./index.php?mod=currency">Currency</a></li>
+                            <li><a class="dropdown-item" href="./index.php?mod=unit">Unit</a></li>
+                        </ul>
+                    </li>
+                    <!-- /converter dropdown (currency,unit) -->
+                    <li class="nav-item"><a class="nav-link" href="./index.php?mod=weather">Weather</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.php?mod=calculator">Calculator</a></li>
+                    <!-- other  enterainment(jokes,quotes,) dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Entertainment
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./index.php?mod=jokes">Jokes</a></li>
+                            <li><a class="dropdown-item" href="./index.php?mod=quotes">Quotes</a></li>
+                        </ul>
+                    </li>
+                    <!-- /other  enterainment(jokes,quotes,) dropdown -->
                     <li class="nav-item"><a class="nav-link" href="./index.php?mod=contact">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="./index.php?mod=about">About</a></li>
                     <!-- /ITEMS -->
@@ -48,7 +77,7 @@
             include($mod);
         } else {
 
-        include("404.php");
+            include("404.php");
         }
         ?>
 
@@ -71,9 +100,9 @@
             <!-- location -->
             <div class="col-md-4">
                 <h3><i class="fa fa-map-marker"></i></h3>
-                    <div class="gmap_canvas"><iframe width="300" height="200" id="gmap_canvas"
-                            src="https://maps.google.com/maps?q=nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+                <div class="gmap_canvas"><iframe width="300" height="200" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                        scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
             </div>
 
             <div class="col-md-4">

@@ -59,15 +59,28 @@
   }
   .search-card {
     /* Replace 'red', 'green', and 'blue' with actual integer values */
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Example shadow with red color */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /*  shadow with red color */
 }
 .results-card{
-    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Example shadow with red color */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /*  shadow with red color */
     min-height: 300px;
 }
 /* glowing card  */
 .glowing-card {
-    /* Replace 'red', 'green', and 'blue' with actual integer values */
-    box-shadow: 0 0 10px rgba(115, 0, 255, 0.5); /* Example shadow with red color */
+    
+    box-shadow: 0 0 10px rgba(115, 0, 255, 0.5); 
     animation: glow 1s ease-in-out infinite alternate;
+}
+/* 404 page */
+.error-page{
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#1e5799), to(#2989d8));
+
+/* add shaking animation */
+animation: shake 0.5s linear infinite !important;
+/* glowing border */
+border: 1px solid #fff;
+box-shadow: 0 0 10px #fff;
+
+
+
 }

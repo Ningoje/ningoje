@@ -1,6 +1,6 @@
-<!-- 404 -->
+<!-- 404 page -->
 <div class="container">
-    <div class="row">
+    <div class="row error-page">
         <div class="col-md-12">
             <h1 class="text-center">404</h1>
             <h3 class="text-center">Page not found</h3>
