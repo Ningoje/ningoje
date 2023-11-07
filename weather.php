@@ -2,7 +2,7 @@
 <h2 class="page-header text-center">weather</h2>
 
 <!-- textfiled to enter city -->
-<div class="row">
+<div class="row m-3">
     <div class="col-md-4"></div>
     <div class="col-md-4">
         <input type="text" id="city" class="form-control" placeholder="Enter city name">
@@ -15,14 +15,12 @@
 
 </div>
 <!-- card to display weather -->
-<div class="card weather-card m-2 p-2">
+<div class="card weather-card text-center" id="weather-results">
     <div class="row m-3 p-3">
         <div class="col-md-2"></div>
-        <div class="col-md-8" id="weather-results">
+        <div class="col-md-8">
             <!-- info -->
             <p class="text-center">Enter city name to get weather information</p>
-
-
         </div>
         <div class="col-md-2">
 
@@ -32,7 +30,6 @@
 </div>
 <!-- use php to fetch -->
 <script>
-
     const url = 'https://api.api-ninjas.com/v1/weather?city=';
     const api_key = 'pVu+077nJZLR5aSU3rT4Uw==Mjk3lCw4PETJptdl';
     //use ajax to fetch data
@@ -40,12 +37,16 @@
         //show loading
         document.getElementById('weather-results').innerHTML = modal_content
         const city = document.getElementById('city').value;
+        if (city === '') {
+            alert('Please enter city name');
+            return;
+        }
         //get counntry
         const country = await fetch('https://api.api-ninjas.com/v1/city?name=' + city, {
             headers: { 'X-Api-Key': api_key },
         })
             .then(res => res.json())
-            .then(data => data[0].country);
+            .then(data => data[0].country).catch(err => '');
         $.ajax({
             method: 'GET',
             url: 'https://api.api-ninjas.com/v1/weather?city=' + city,
@@ -54,10 +55,11 @@
             success: function (result) {
                 //set icon
                 $('#icon').attr('src', `https://flagsapi.com/${country}/flat/64.png`);
-                src_ = `https://flagsapi.com/${country}/flat/64.png`
+                src_ =country===''?'': `https://flagsapi.com/${country}/flat/64.png`
                 document.getElementById('weather-results').innerHTML = `
-       <div class="card m-2 p-2" style="width: 18rem;">
-       <img src="${src_}" class="card-img-top" alt="${country}">
+        <div class="card-header">
+        ☁️ ${city}, ${country}<span class="float-right"><img id="icon" src="${src_}" alt=""></span>    
+</div>
          <div class="card-body text-center">
             <h5 class="card-title">${city}</h5>
             <p class="card-text">Temperature: ${result.temp}°C</p>
@@ -70,11 +72,16 @@
             <p class="card-text">Sunrise: ${result.sunrise}</p>
             <p class="card-text">Sunset: ${result.sunset}</p>
         </div>
-    </div>
        `;
             },
             error: function ajaxError(jqXHR) {
-                console.error('Error: ', jqXHR.responseText);
+               document.getElementById('weather-results').innerHTML = `
+<div class="alert alert-danger p-0 m-0" role="alert">
+No data found for ${city}
+</div>
+
+        `
+
             }
         });
     }

@@ -10,14 +10,19 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-        <!-- jquery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <title>NINGOJE</title>
 
 </head>
 
 <body>
+    <!-- title section -->
+    <section class="title-section">
+        <h1 class="title-header text-center">VersaServe - All-in-One Service Hub</h1>
+
+    </section>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">MENU</a>
@@ -121,7 +126,9 @@
         </div>
     </div>
 
-    </div>
+
+
+
     <section class="copyright text-center">
         ⓒNingoje ,<span id="year"></span>
     </section>
@@ -131,5 +138,6 @@
     <script src="https://kit.fontawesome.com/3d21027bf4.js" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
 </body>
+
 
 </html>

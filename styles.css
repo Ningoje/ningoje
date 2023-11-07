@@ -57,6 +57,9 @@
     color: white !important;
 
   }
+  .title-section{
+    background-color: rgba(255, 0, 0, 0.5);
+  }
   .search-card {
     /* Replace 'red', 'green', and 'blue' with actual integer values */
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /*  shadow with red color */
