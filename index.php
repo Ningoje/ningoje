@@ -52,15 +52,16 @@
                     <!-- /converter dropdown (currency,unit) -->
                     <li class="nav-item"><a class="nav-link" href="./index.php?mod=weather">Weather</a></li>
                     <li class="nav-item"><a class="nav-link" href="./index.php?mod=calculator">Calculator</a></li>
-                    <!-- other  enterainment(jokes,quotes,) dropdown -->
+                    <!-- other  enterainment(jokes,quotes,riddles) dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Entertainment
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="./index.php?mod=jokes">Jokes</a></li>
-                            <li><a class="dropdown-item" href="./index.php?mod=quotes">Quotes</a></li>
+                            <li><a class="dropdown-item" href="./index.php?mod=entertainment&cat=jokes">Jokes</a></li>
+                            <li><a class="dropdown-item" href="./index.php?mod=entertainment&cat=quotes">Quotes</a></li>
+                            <li><a class="dropdown-item" href="./index.php?mod=entertainment&cat=riddles">Riddles</a></li>
                         </ul>
                     </li>
                     <!-- /other  enterainment(jokes,quotes,) dropdown -->
