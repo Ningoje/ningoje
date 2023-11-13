@@ -1,8 +1,9 @@
 <h2 class="page-header text-center">QR Code Generator</h2>
 <div class="card search-card m-2 p2">
   <div class="row m-3 -p3">
-    <div class="col-md-3">
-      <input type="text" id="searchTxt" class="form-control" placeholder="Enter text or link">
+    <div class="col-md-8">
+      <textarea type="text" id="searchTxt" class="form-control" placeholder="Enter text or link">
+      </textarea>
     </div>
     <div class="col-sm-2">
       <button class="btn btn-primary" id="searchbtn">Generate Qr</button>
@@ -24,19 +25,29 @@
 <script>
   document.querySelector("#searchbtn").addEventListener("click", qrGen);
 
-  function qrGen(e) {
-    const S_Element=document.querySelector("#searchTxt")
+  async function qrGen(e) {
+    const S_Element = document.querySelector("#searchTxt")
     const name = S_Element.value;
     if (name === "") {
-     S_Element.classList.add("is-invalid");
+      S_Element.classList.add("is-invalid");
       return;
     }
     S_Element.classList.remove("is-invalid");
     const qrlink = "https://api.akuari.my.id/other/qrcode?text=";
     const linkqr = qrlink.concat(name);
-
+    const txtBox = document.querySelector(".txtBox")
+    const qrlink2 = 'https://api.api-ninjas.com/v1/qrcode?format=png&data='
+    const api_key = 'pVu+077nJZLR5aSU3rT4Uw==Mjk3lCw4PETJptdl'
+    const linkqr2 = await fetch(qrlink2 + name, {
+      headers: { 'X-Api-Key': api_key },
+    })
+      .then(res => res.json())
+      .then(data => data[0]).catch(err => '');
+    console.log(linkqr2)
+//grlink2 return an
     try {
       document.querySelector(".txtBox").innerHTML = `
+      ${linkqr2}
       <div class="card results-card  m-2 text-center">
       <div class="card-header">
         <h4>QR Code</h4>
@@ -48,7 +59,7 @@
       
       <div>
         <img
-          src="${linkqr}"
+          src="${linkqr2}"
           class="rounded mx-auto d-block " alt="${name}" />
       </div>
       </div>

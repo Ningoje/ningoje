@@ -1,6 +1,7 @@
 .content{
     min-height: 500px;
     background-color: gray !important;
+    margin: 2px,2px,2px,2px !important;
 }
 .footer{
     min-height: 200px;

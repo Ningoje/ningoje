@@ -135,7 +135,7 @@ $cats = ['jokes', 'quotes', 'riddles'];
         const answer_btn = `<button class="btn btn-primary" onclick="showAnswer()">Show Answer</button>`
         cat_div.innerHTML = `
         ${riddles.question} <br>
-        ${answer_btn}
+       ${answer_btn}
         ${refresh_btn}
         `;
 
@@ -148,7 +148,8 @@ $cats = ['jokes', 'quotes', 'riddles'];
         console.log(riddles_);
         cat_div.innerHTML = `
             ${riddles_.question} <br>
-            ${riddles_.answer} <br>
+            <p class="alert alert-success">${riddles_.answer} <br></p>
+
             ${riddles_.btn}
             `;
     }
