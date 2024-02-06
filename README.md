@@ -9,7 +9,7 @@
 ```
 
  I am ningoje 😂😂 ✅🎉 .
- Gamer eFootball 2023
+ Gamer eFootball 2024
 
 ```
 
@@ -60,8 +60,8 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/@NingojePaleHivi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Ningoje" height="60" width="80" /></a>
-<a href="https://fb.com/nigojepalehivi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Ningoje" height="60" width="80" /></a>
+<a href="https://twitter.com/@Ningoje" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Ningoje" height="60" width="80" /></a>
+<a href="https://www.facebook.com/ningoje" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Ningoje" height="60" width="80" /></a>
 <a href="https://instagram.com/ningoje" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Ningoje" height="60" width="80" /></a>
 <a href="https://www.youtube.com/c/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="Ningoje" height="60" width="80" /></a>
 <a href="https://www.youtube.com/c/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="Ningoje" height="60" width="80" /></a>
