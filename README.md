@@ -8,8 +8,7 @@
 
 ```
 
- I am ningoje 😂😂 ✅🎉 .
- Gamer eFootball 2024
+ I am ningoje aka Dennis Mutuku
 
 ```
 
@@ -24,11 +23,11 @@
   
 - Name **Ningoje**
 
-- Live in **Kanairo , Kenya**
-- Studying at [***Chuka University***]
-- Atleast Good with **Java ,javascript html,css , php,C,C++ , python and nodejs** 
+- Live in **Nairobi , Kenya**
+- Graduate [***Chuka University***]
+- Atleast Good with **Java ,javascript frameworks ,html,css , php,C,C++ , python and nodejs** 
 
-- Mainly Focus on making Whatsapp Bots
+- Mainly Focus on learning new technologies 
 
 
 </details>
